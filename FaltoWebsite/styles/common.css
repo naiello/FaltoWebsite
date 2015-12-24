@@ -1,0 +1,31 @@
+/* Define irish as a custom font (for headers) */
+@font-face {
+    font-family: irish;
+    src: url('fonts/IrishUncialfabeta-Bold.ttf');
+}
+
+/* Default page text style */
+body {
+    /* Roboto is from Google fonts, should be included in each individual page
+    by linking stylesheet at https://fonts.googleapis.com/css?family=Roboto */
+    font-family: Roboto, sans-serif;
+    background: black;
+    color: white;
+}
+
+h1, h2 {
+    font-family: irish, Roboto, sans-serif;
+}
+
+a, a:visited {
+    color: #AFFF6E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #D6FFA6;
+}
