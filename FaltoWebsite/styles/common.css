@@ -4,6 +4,40 @@
     src: url('fonts/IrishUncialfabeta-Bold.ttf');
 }
 
+/* Sidebar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 15%;
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14pt;
+    padding: 8px 16px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #AFFF6E;
+}
+
 /* Default page text style */
 body {
     /* Roboto is from Google fonts, should be included in each individual page
@@ -11,6 +45,26 @@ body {
     font-family: Roboto, sans-serif;
     background: black;
     color: white;
+    margin: 0;
+}
+
+div.header {
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#title {
+    font-family: irish, Roboto, sans-serif;
+    font-size: 48pt;
+    text-shadow: 0 0 12px #AFFF6E;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+div.main {
+    margin-top: 15%;
+    padding: 1px 16px;
 }
 
 h1, h2 {
@@ -29,3 +83,4 @@ a:hover {
 a:active {
     color: #D6FFA6;
 }
+
