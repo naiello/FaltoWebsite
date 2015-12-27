@@ -7,7 +7,7 @@
             <li><a href="#">Photos</a></li>
             <li><a href="#">Traditions</a></li>
             <li><a href="#">Join the Faltos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
 </div>

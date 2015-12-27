@@ -21,9 +21,14 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+            #spacer {
+                height: 80%;
+            }
         </style>
     </head>
     <body>
         <?php include("includes/header.php"); ?>
+        <div id="spacer"></div>
+        <?php include("includes/footer.php"); ?>
     </body>
 </html>

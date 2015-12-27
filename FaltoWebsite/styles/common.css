@@ -35,22 +35,32 @@
 .navbar ul li a:hover {
     text-decoration: none;
     color: black;
-    background-color: #AFFF6E;
+    background-color: #47CC54;
 }
 
 /* Default page text style */
-body {
+html, body {
     /* Roboto is from Google fonts, should be included in each individual page
     by linking stylesheet at https://fonts.googleapis.com/css?family=Roboto */
     font-family: Roboto, sans-serif;
-    background: black;
-    color: white;
+    background-image: url('../images/bgtile.png');
+    color: #222222;
     margin: 0;
+    height: 100%;
+    min-height: 100%;
 }
 
 div.header {
     padding: 12px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+div.footer {
+    color: #EEEEEE;
+    font-size: 8pt;
+    height: 16px;
+    width: 100%;
+    bottom: 0;
 }
 
 #title {
@@ -60,19 +70,35 @@ div.header {
     text-align: center;
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 div.main {
-    margin-top: 15%;
+    padding: 16px 16px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    min-height: 50%;
+    height: auto !important;
+    overflow: auto;
+    width: 75%;
+    background-color: rgba(238, 238, 238, 0.8);
+    border: 3px solid #222222;
     padding: 1px 16px;
 }
 
-h1, h2 {
+h1 {
     font-family: irish, Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 32pt;
+    
+    /* Only works in chrome/safari, but will improve appearance of font */
+    -webkit-font-smoothing: antialiased;
 }
 
 a, a:visited {
-    color: #AFFF6E;
+    color: #007F0E;
     text-decoration: none;
 }
 
@@ -81,6 +107,6 @@ a:hover {
 }
 
 a:active {
-    color: #D6FFA6;
+    color: #47CC54;
 }
 
