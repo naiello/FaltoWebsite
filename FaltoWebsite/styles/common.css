@@ -4,7 +4,7 @@
     src: url('fonts/IrishUncialfabeta-Bold.ttf');
 }
 
-/* Sidebar */
+/* Navigation bar in the header */
 .navbar {
     margin: 0;
     padding: 0;
@@ -63,6 +63,20 @@ div.footer {
     bottom: 0;
 }
 
+.small {
+    font-size: 10pt;
+    color: #555555;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+/* Use when the headers are getting too far away from the text */
+.nospc {
+    padding: 0;
+    margin: 0;
+}
+
 #title {
     font-family: irish, Roboto, sans-serif;
     font-size: 48pt;
@@ -97,6 +111,7 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
+/* Link styling */
 a, a:visited {
     color: #007F0E;
     text-decoration: none;
@@ -110,3 +125,15 @@ a:active {
     color: #47CC54;
 }
 
+/* For the circular profile pictures */
+img.profile {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+    margin-left: 8px;
+    box-shadow: 2px 2px 2px #222222;
+}
