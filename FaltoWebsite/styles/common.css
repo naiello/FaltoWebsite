@@ -137,3 +137,41 @@ img.profile {
     margin-left: 8px;
     box-shadow: 2px 2px 2px #222222;
 }
+
+img.smprofile {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin: 8px 12px 8px 8px;
+    box-shadow: 2px 2px 2px #222222;
+}
+
+/* Profile List */
+ul.proflist {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+ul.proflist li {
+    font-weight: bold;
+    display: inline-block;
+    min-width: 20%;
+    height: 64px;
+    line-height: 64px; /*vertically center text*/
+    margin: 4px;
+    padding: 8px;
+}
+
+ul.proflist li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+ul.proflist li a:hover {
+    background-color: #BBBBBB;
+    text-decoration: none;
+}

@@ -5,7 +5,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="news.php">News</a></li>
-            <li><a href="#">Members</a></li>
+            <li><a href="members.php">Members</a></li>
             <li><a href="#">Photos</a></li>
             <li><a href="#">Join the Faltos</a></li>
             <li><a href="contact.php">Contact</a></li>
