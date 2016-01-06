@@ -94,7 +94,7 @@ function generate_profile_link($name, $id) {
             generate_profile_link("Zane Colon", "zcolon");
             generate_profile_link("Noemi de la Torre", "ndelatorre");
             generate_profile_link("Lauren Humphrey", "lhumphrey");
-            generate_profile_link("Nik Procaccini", "nproccac");
+            generate_profile_link("Nik Procaccini", "nprocaccini");
             generate_profile_link("Aaron Rea", "area");
             end_profile_list();
             ?>
